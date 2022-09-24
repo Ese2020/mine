@@ -1,0 +1,66 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.not-container {
+    display: flex;
+    background-color: rgb(239, 237, 237);
+    height: 200px;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 0.8rem;
+}
+
+.not-img {
+    width: 40%;
+    height: 75vh;
+    background-image: url("https://atuwatseiii.com/static/media/speeches.32008b73e3d952cf67ed.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.not-card {
+    display: flex;
+    width: 70%;
+    height: 100vh;
+}
+
+input {
+    margin-top: 8px;
+    width: 380px;
+    height: 40px;
+    border-radius: 30px;
+    border: 1.5px solid black;
+    padding: 10px;
+    background-color: white;
+}
+
+.notcard-container {
+    background-color: white;
+    padding: 20px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.notcard2 {
+    background-color: white;
+    width: 40%;
+    height: 100px;
+    padding: 20px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}

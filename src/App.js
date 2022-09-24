@@ -1,24 +1,23 @@
-import logo from './logo.svg';
+import React from "react";
+import { Routes, Route } from "react-router-dom";
 import './App.css';
+import { Home, History, Ginuwa, Warri, Royal, Press, Event, Speech, Account, } from "./components/pages";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/history" element={<History />} />
+        <Route path="/ginuwa" element={<Ginuwa />} />
+        <Route path="/warri" element={<Warri />} />
+        <Route path="/royal" element={<Royal />} />
+        <Route path="/press" element={<Press />} />
+        <Route path="/event" element={<Event />} />
+        <Route path="/speech" element={<Speech />} />
+        <Route path="/login" element={<Account />} />
+      </Routes>
+      </>
   );
 }
 

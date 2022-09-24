@@ -1,0 +1,208 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.gin-container {
+    display: flex;
+    background-color: rgb(239, 237, 237);
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 0.8rem;
+}
+
+.gin-img {
+    width: 40%;
+    height: 100vh;
+    background-image: url("https://atuwatseiii.com/static/media/ginuwa.e4765c1eb1bbf7324286.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.gin-card {
+    width: 60%;
+}
+input {
+    margin-top: 8px;
+    width: 380px;
+    height: 40px;
+    border-radius: 30px;
+    border: 1.5px solid black;
+    padding: 10px;
+    background-color: white;
+}
+
+.card-container {
+    background-color: white;
+    padding: 20px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.cd {
+    padding: 12px;
+    background-color: white;
+    border-radius: 10px;
+    border-bottom: 10px;
+    display: flex;
+    align-items: stretch;
+}
+
+.cd:hover {
+    background-color: rgb(212, 0, 2);
+    color: white;
+}
+
+.card1 {
+    margin-top: 32px;
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
+}
+
+.cards {
+    display: flex;
+    padding: 0px 24px;
+    max-height: 65vh;
+}
+
+.card-img1 {
+    background-image: url("https://atuwatseiii.com/assets/img/crests/iwere_kings/atuwatse_iii.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 120px;
+    height: 120px;
+}
+
+.card-img2 {
+    background-image: url("https://atuwatseiii.com/assets/img/crests/iwere_kings/ikenwoli.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 120px;
+    height: 120px;
+}
+
+.card-img3 {
+    background-image: url("https://atuwatseiii.com/assets/img/crests/iwere_kings/atuwatse_ii.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 120px;
+    height: 120px;
+}
+
+
+.card-img4 {
+    background-image: url("https://atuwatseiii.com/assets/img/crests/iwere_kings/erejuwa_ii.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 120px;
+    height: 120px;
+}
+
+
+.card-img5 {
+    background-image: url("https://atuwatseiii.com/assets/img/crests/iwere_kings/ginuwa_ii.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 120px;
+    height: 120px;
+}
+
+
+.card-img6 {
+    background-image: url("https://atuwatseiii.com/assets/img/crests/iwere_kings/interregnum.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 120px;
+    height: 120px;
+}
+
+
+.card-img7 {
+    background-image: url("https://atuwatseiii.com/assets/img/crests/iwere_kings/erejuwa.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 120px;
+    height: 120px;
+}
+
+.card-img8 {
+    background-image: url("https://atuwatseiii.com/assets/img/crests/iwere_kings/atogbuwa.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 120px;
+    height: 120px;
+}
+
+.card-img9 {
+    background-image: url("https://atuwatseiii.com/assets/img/crests/iwere_kings/akenjioye.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 120px;
+    height: 120px;
+}
+
+.card-img10 {
+    background-image: url("https://atuwatseiii.com/assets/img/crests/iwere_kings/omagboye.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 120px;
+    height: 120px;
+}
+
+.card-img11 {
+    background-image: url("https://atuwatseiii.com/assets/img/crests/iwere_kings/akenjioye_sebastien.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 120px;
+    height: 120px;
+}
+
+.card-img12 {
+    background-image: url("https://atuwatseiii.com/assets/img/crests/iwere_kings/abejeoye.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 120px;
+    height: 120px;
+}
+
+
+.card-container {
+    border-bottom: 30px;
+}
+
+.card1 {
+    overflow-y: auto;
+    width: 50%;
+}
+
+.card2 {
+    width: 50%;
+    padding: 20px;
+    margin-top: 40px;
+}
